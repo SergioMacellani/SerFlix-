@@ -1,0 +1,150 @@
+body{
+    background-color:rgb(32, 33, 36);
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.screen{
+    height: 100%;
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;    
+}
+
+.logo{
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.logo img{
+    height: 100%;
+    width: 555px;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.search-box{
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-text{
+    width: 750px;
+    height: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#search-btt{
+    margin-top: 20px;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    background-color: gray;
+    color: white;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.movies-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#latest-card{
+    background-color: rgba(25,26,28);
+    height: 400px;
+    margin: 10px;
+}
+
+#latest-poster{
+    margin-top: 10px;
+}
+
+#latest-title{
+    color: white;
+}
+
+#latest-overview{
+    color: white;
+    display: block;
+    height: 124px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.backround-blur{    
+    filter: blur(10px) brightness(33%);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+#movie-detail{
+    margin-top: 5%;
+}
+
+#movie-poster{    
+    margin-left: 5%;
+    position: fixed;
+}
+
+#movie-title{
+    margin-left: 22%;
+}
+
+#movie-date{
+    margin-left: 22%;
+}
+
+#movie-rating{
+    margin-left: 22%;
+}
+
+#movie-sinopse{
+    margin-left: 22%;
+    width: 70%;
+}
+
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(19, 19, 20);
+ }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
