@@ -18,7 +18,7 @@ function showSearch()
         {
         text += `
         <div id="movie" class="col-2">
-            <a href="detalhe/?movie=${data.id}">
+            <a href="./detalhe/?movie=${data.id}">
                 <div class="card shadow-sm" style="background-color: rgba(25,26,28);">                
                     <img class="cardImg" src="${image_base_url}${data.poster_path}">
                     <div class="card-body">
