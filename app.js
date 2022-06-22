@@ -41,7 +41,7 @@ function searchStart()
 {
     let query = document.getElementById('search-text').value;
 
-    window.location.replace(`SerFlix-/pesquisa/?search=${query}}`);
+    window.location.replace(`pesquisa/?search=${query}}`);
 }
 
 window.onload = getLatest();
