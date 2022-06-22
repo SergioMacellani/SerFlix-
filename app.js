@@ -23,7 +23,7 @@ function latestMovies()
         let data = dataList.results[i];
         text += `
         <div id="latest-card" class="card" style="width: 18rem;">
-            <a href="/detalhe/?movie=${data.id}">
+            <a href="detalhe/?movie=${data.id}">
                 <img id="latest-poster" class="card-img-top" src="${image_base_url}${data.backdrop_path}" alt="${data.title} Poster">
                 <div class="card-body">
                     <h5 id="latest-title" class="card-title">${data.title}</h5>
